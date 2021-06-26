@@ -1,0 +1,33 @@
+.navbar{
+    color:blue;
+}
+.foot-left{
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+  }
+
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    
+  }
+  li a:hover {
+    text-decoration: underline;     
+  }
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
