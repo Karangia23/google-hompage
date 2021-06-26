@@ -61,20 +61,20 @@ input{
      color: #000000;
      width: 500px;
      height: 30px;
-     padding-left: 10px;
      margin-bottom: 30px;
+     width: 50%;
+    padding: 10px;
+    text-align: center;
 }
 input[type=text]:focus {
     outline: none;
     border: 1px solid #979797;
-    color: #525252;
     box-shadow: 0px 0px 1px 2px #cacaca;
 }
 
 input[type=text]:hover{
     outline: none;
     border: 1px solid #979797;
-    color: #525252;
     box-shadow: 0px 0px 1px 2px #cacaca;
 }
 footer{
@@ -114,13 +114,10 @@ button{
     padding-right: 30px;
 }
 
-#sign-in-button{
-    background-color: rgb(4, 142, 255);
-    border-color: rgb(4, 142, 255);
-    color:whitesmoke;
-    border-radius: 12px;
-    padding-left: 30px;
-    padding-right: 30px;
+#sign-in-button:hover{
+    background-color: rgb(43, 153, 243);
+    border-color: rgb(43, 153, 243);
+    
 }
 #country-label {
     color: rgb(182, 179, 179);
